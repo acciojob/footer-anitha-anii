@@ -1,23 +1,66 @@
 /* your code here */
+footer {
+  background-color: #1b1b1b;
+  color: #fff;
+  font-size: 16px;
+  padding: 50px 0;
+}
 
-.top{
-	display: flex;
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.logo-details{
-	font-size:50px;
-	
-}
-.link-boxes{
-	padding:20px;
-	color:white;
 
+.col {
+  flex: 1;
+  margin: 0 20px;
+  min-width: 200px;
+}
 
-.contact{
-	font-size:30px;
+.col h3 {
+  margin-bottom: 20px;
 }
-	.media-icons,
-.link-boxes {
-  display: flex;
+
+.col.links ul,
+.col.services ul,
+.col.contact ul,
+.col.social ul {
+  padding: 0;
+  list-style: none;
 }
+
+.col.links li,
+.col.services li,
+.col.contact li,
+.col.social li {
+  margin-bottom: 10px;
+}
+
+.col.links a,
+.col.services a,
+.col.contact li,
+.col.social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.col.contact li i {
+  margin-right: 10px;
+}
+
+.col.social ul li a i {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.col.social ul li a i.fa-facebook {
+  background-color: #3b5998;
+}
+
+.col.social ul li a i.fa-twitter {
+  background-color: #55
+
