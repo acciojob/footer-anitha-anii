@@ -41,7 +41,7 @@ li {
 	background-color:gray;
 	
 }
-.media-icons a{
+.media-icons{
 	display:flex;
 	justify-content:inline;
 }
