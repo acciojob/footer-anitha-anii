@@ -1,62 +1,42 @@
 /* your code here */
+*{
+	 list-style:none;
+}
 footer {
   background-color: #222;
   color: #fff;
-  padding: 40px 0;
+
+}
+h1{
+	
 }
 
-.footer-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+.first{
+	display:flex;
+	justify-content:space-between;
+	
 }
-
-.link-boxes h3,
-.services h3,
-.contact h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
+.icons ul{
+	display:flex;
+	margin:30px;
 }
+li {
+  margin: 10px;
 
-.link-boxes ul,
-.services ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
-
-.link-boxes ul li,
-.services ul li {
-  margin-bottom: 10px;
+.heading{
+	margin:30px;
+	font
 }
-
-.link-boxes a,
-.services a {
-  color: #fff;
-  text-decoration: none;
+.second{
+	display:flex;
+	justify-content:space-between;
 }
-
-.contact p {
-  margin: 0 0 10px;
-}
-
-.social-icons {
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.social-icons li {
-  margin-right: 10px;
-}
-
-.social-icons a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.footer-bottom {
-  margin-top: 40px;
-  text-align: center;
+.third{
+	margin-top:20px;
+	padding:20px;
+	display:flex;
+	justify-content:space-between;
+	background-color:gray;
+	
 }
