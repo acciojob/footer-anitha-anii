@@ -18,6 +18,7 @@ h1{
 }
 .media-icons ul{
 	display:flex;
+	justify-content:inline;
 	margin:30px;
 }
 li {
@@ -28,7 +29,7 @@ li {
 	margin:30px;
 
 }
-.second{
+.link-boxes{
 	display:flex;
 	justify-content:space-between;
 }
