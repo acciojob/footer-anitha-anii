@@ -18,7 +18,7 @@ h1{
 }
 .media-icons ul{
 	display:flex;
-	justify-content:inline;
+	justify-content:inline-block;
 	margin:30px;
 }
 li {
@@ -40,4 +40,8 @@ li {
 	justify-content:space-between;
 	background-color:gray;
 	
+}
+.media-icons{
+	display:flex;
+	justify-content:inline;
 }
